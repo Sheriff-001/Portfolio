@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NotFound.jsx";
 import Home from "./Pages/Home";
 import MoreProject from "./Pages/MoreProject"
 import Header from "./Components/Header";
