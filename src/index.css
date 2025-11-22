@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #101116;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bxc {
+  border: 1px solid #26292d;
+  border-radius: 4px;
+  padding: 5px;
+  background: #27282e;
+  font-size: 25px;
+}
+.bxl-tailwind-css,.bxl-react {
+  color: blue;
+}
+
+.bxl-javascript {
+  color: yellow;
+}
+.bxl-css3 {
+  color: #0099e0;
+}
+.bxl-html5 {
+  color: orangered;
+}
+.bx-a {
+  border: 1px solid #364153;
+  border-radius: 5px;
+  padding: 5px;
+  background: #27282e;
+}
+.bc {
+  background: transparent;
+  border: 0;
+}
+.bs {
+  background: #2e45c9;
+  border: 1px solid #2e45c9;
+  border-radius: 50%;
+}
+.experience {
+  @apply text-white;
+  font-size: 50px;
+}
+
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeUp 2.9s ease-out forwards;
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translateX(12px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.fade-left.show {
+  opacity: 1;
+  transform: translateX(0);
+  animation: fadeLeft 2.9s ease-out forwards;
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(12px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.fade-right.show {
+  opacity: 1;
+  transform: translateX(0);
+  animation: fadeRight 2.9s ease-out forwards;
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.animate-gradient {
+  animation: gradientMove 3s infinite alternate;
+  background-size: 1000%;
+}
+.bs:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+
+
+
