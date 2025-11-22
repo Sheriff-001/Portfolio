@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { defaultMe } from "../../public/assets";
 import Skills from "./Skills";
 
 function About() {
@@ -65,7 +64,7 @@ function About() {
 
             <Skills />
           </div>
-          <img src={defaultMe} className="w-auto h-120 bg-cover" />
+          <img src={'/default-me.png'} className="w-auto h-120 bg-cover" />
         </div>
       </div>
 
