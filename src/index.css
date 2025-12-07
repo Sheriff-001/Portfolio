@@ -162,6 +162,11 @@ html {
   animation: errorFade 0.3s ease-out;
 }
 
+.bxl-whatsapp {
+  color: #25D366;
+  font-size: 25px;
+  justify-self: last baseline;
+}
 
 
 

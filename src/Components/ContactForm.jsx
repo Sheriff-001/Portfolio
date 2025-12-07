@@ -161,9 +161,9 @@ function ContactForm() {
       <button
         className="relative px-6 py-3 rounded-md text-[20px] font-semibold text-white
         bg-linear-to-r from-[#3f3ffd] via-[#7a32ff] to-[#ff2ec1]
-        overflow-hidden hover:scale-105 duration-500"
+        overflow-hidden hover:scale-105 duration-500 flex justify-center items-center content-center gap-2"
       >
-        <span className="relative z-10">Send Message <i class='bx bxl-whatsapp'></i></span>
+        <span className="relative z-10">Send Message </span><i class='bx bxl-whatsapp' ></i>
       </button>
     </form>
   );
