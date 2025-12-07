@@ -82,7 +82,10 @@ function ContactForm() {
 
     for (let valid of popularDomains) {
       const dist = levenshtein(domain, valid);
-      if (dist <= 2) {
+      // FIX: Changed from dist <= 2 to dist === 1. 
+      // This is less aggressive and minimizes false positives 
+      // for valid, non-popular domains.
+      if (dist === 1) { 
         return { status: "typo_suspected", suggestion: valid };
       }
     }
