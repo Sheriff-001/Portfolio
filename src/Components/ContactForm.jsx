@@ -163,7 +163,7 @@ function ContactForm() {
         bg-linear-to-r from-[#3f3ffd] via-[#7a32ff] to-[#ff2ec1]
         overflow-hidden hover:scale-105 duration-500"
       >
-        <span className="relative z-10">Send Message</span>
+        <span className="relative z-10">Send Message <i class='bx bxl-whatsapp'></i></span>
       </button>
     </form>
   );
