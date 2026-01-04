@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import MoreProject from "./Pages/MoreProject"
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
  function App() {
   return (
@@ -15,6 +16,7 @@ import Footer from "./Components/Footer";
       <Route path="/MoreProject" element={<MoreProject />} />
     </Routes>
     <Footer/>
+    <Analytics />
     </>
   );
 }
