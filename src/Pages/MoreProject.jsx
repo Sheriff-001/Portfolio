@@ -38,6 +38,18 @@ function MoreProject() {
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-3 gap-7 md:p-20 py-10 mx-10 md:mx-15">
         <Project
+                  image="../assets/bg-trainex.png"
+                  name="Trainex"
+                  desc={"Helping You train Smarter and stay motivated anytime, anywhere."}
+                  ghLInk={"/"}
+                  icons={[
+                    "bx bxc bxl-react",
+                    "bx bxc bxl-javascript",
+                    "bx bxc bxl-tailwind-css",
+                  ]}
+                  liveLink={"/"}
+                />
+        <Project
           image="../assets/bg-portfolio.png"
           name="My Portfolio"
           desc={"Turn your ideas into reality, just a message away."}
